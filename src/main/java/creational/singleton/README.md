@@ -1,17 +1,17 @@
 # Singleton Pattern
 
-It is a **creational** design pattern.
+It is a **creational** design pattern. <br>
 
-This pattern is to make sure that _only one instance_ of its kind exists. 
-It provides a _single point of access_ to the shared resource or object from anywhere in the application.
+This pattern is to make sure that _only one instance_ of its kind exists. <br>
+It provides a _single point of access_ to the shared resource or object from anywhere in the application.<br>
 
-** always make the _default constructor private_ to avoid creating new objects outside the class.
+** always make the _default constructor private_ to avoid creating new objects outside the class.<br>
 
-Use cases: Logging instances, Configuration management, Database connection pooling, Print spoolers, etc.
+Use cases: Logging instances, Configuration management, Database connection pooling, Print spoolers, etc.<br>
 
-Pre-requisites: keywords (static, volatile, private, final), concepts (class loading mechanism, multi-threading)
+Pre-requisites: keywords (static, volatile, private, final), concepts (class loading mechanism, multi-threading) <br>
 
-There are four ways to implement the Singleton Design Pattern.
+There are four ways to implement the Singleton Design Pattern.<br>
 
 1. **Eager Initialization**
    - simple, thread-safe, static initialization.
@@ -34,7 +34,7 @@ There are four ways to implement the Singleton Design Pattern.
    - **Drawbacks:** volatile keyword is not compatible with Java 1.4 and below, and just that it's complex than other implementations.
 
 
-Brownie points: you can try ENUM instead of class. 
+Brownie: you can try ENUM Singleton instead of class. 
 
 
 
