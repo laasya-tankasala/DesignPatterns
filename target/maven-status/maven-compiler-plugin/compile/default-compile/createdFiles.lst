@@ -1,0 +1,5 @@
+creational\singleton\LazyInitializedSingleton.class
+creational\singleton\SynchronizedSingleton.class
+Main.class
+creational\singleton\EagerInitializedSingleton.class
+creational\singleton\DoubleLockingSingleton.class

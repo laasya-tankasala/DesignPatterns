@@ -1,0 +1,4 @@
+creational\singleton\DoubleCheckedLockingSingletonTest.class
+creational\singleton\EagerInitializedSingletonTest.class
+creational\singleton\LazyInitializedSingletonTest.class
+creational\singleton\SynchronizedSingletonTest.class
