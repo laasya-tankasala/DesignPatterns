@@ -10,7 +10,7 @@ It follows the
 Why? To avoid _**class explosion**_. (For more, read https://www.c-sharpcorner.com/article/understanding-and-managing-class-explosion-in-software-design/)  <br>
 This pattern is an _**efficient alternative to subclassing**_ as we can augment an object's behaviour without creating an entirely new object and also an extension is bound to compile-time unlike the decorator pattern which does it at run-time. 
 
-Use cases: I/O streams in most languages, any extending functionality with a base component, multiple combinations of features are required.
+Use cases: I/O streams in most languages, any extending functionality with a base component, wherever multiple combinations of features are required.
 
 It usually has 4 key components. 
 
