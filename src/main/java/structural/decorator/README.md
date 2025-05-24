@@ -27,7 +27,9 @@ It usually has 4 key components.
 
 
 Relations:
-Decorator is a and has a Base Component.
+Decorator is-a and has-a Base Component.
+ConcreteComponent is-a Base Component.
+ConcreteDecorator is-a Base Component.
 
 Implementations: 
 Decorator package has only the template implemented, look into pizza package for a meaningful and comprehensible implementation.
