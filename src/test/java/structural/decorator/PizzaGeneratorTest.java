@@ -5,7 +5,7 @@ import structural.decorator.pizza.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class PizzaGenerationTest {
+public class PizzaGeneratorTest {
 
     @Test
     void prepareMargheritaPizzaWithNoToppings() {
