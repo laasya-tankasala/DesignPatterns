@@ -31,7 +31,7 @@ Decorator is-a and has-a Base Component. <br>
 ConcreteComponent is-a Base Component. <br>
 ConcreteDecorator is-a Base Component. <br>
 
-Implementations: 
+Implementations: <br>
 Decorator package has only the template implemented, look into pizza package for a meaningful and comprehensible implementation.
 
 Brownie: How is this pattern implemented in I/O streams? 
