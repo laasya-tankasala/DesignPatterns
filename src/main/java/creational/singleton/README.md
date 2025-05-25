@@ -11,7 +11,7 @@ Use cases: Logging instances, Configuration management, Database connection pool
 
 Pre-requisites: keywords (static, volatile, private, final), concepts (class loading mechanism, multi-threading) <br>
 
-There are four ways to implement the Singleton Design Pattern.<br>
+There are four popular ways to implement the Singleton Design Pattern.<br>
 
 1. **Eager Initialization**
    - simple, thread-safe, static initialization.
@@ -20,7 +20,7 @@ There are four ways to implement the Singleton Design Pattern.<br>
    - **Drawbacks:** created even when not really used, so unnecessary resource consumption.
     
 2. **Lazy Initialization**
-   - creates the instance only when it's actually needed. (so, good if instance creation is complex or resource intensive)
+   - creates the instance only when it's actually necessary. (so, good if instance creation is complex or resource intensive)
    - **Drawbacks:** not thread-safe, when multiple threads reach (instance==null) simultaneously, there's a good chance to create two instances.
 
 3. **Synchronized** 
@@ -28,13 +28,13 @@ There are four ways to implement the Singleton Design Pattern.<br>
    - **Drawbacks:** impacts performance in highly concurrent systems. When there are a number of threads coming in, 
      every thread shall obtain a lock, check for/get the instance and then release it and locking mechanism is very costly.
 
-4. **Double-Locking** 
+4. **Double-checked Locking** 
    - unlike Synchronized mechanism, this approach does not obtain the lock unless the instance is not yet created. 
    - important to note, the instance variable is made _volatile_ to prevent cache incoherence issues.
-   - **Drawbacks:** volatile keyword is not compatible with Java 1.4 and below, and just that it's complex than other implementations.
+   - **Drawbacks:** volatile keyword is not compatible with Java 1.4 and below, and just that it's complexer than other implementations.
+   
 
-
-Brownie: you can try ENUM Singleton instead of class. 
+Brownie: Look into BillPughSingleton, StaticBlockSingleton as well, you can also try a ENUM Singleton instead of class. 
 
 
 
