@@ -26,13 +26,13 @@ It usually has 4 key components.
    - concrete class, **implementation of the decorator** with added **specific behaviours**.
 
 
-Relations:
-Decorator is-a and has-a Base Component.
-ConcreteComponent is-a Base Component.
-ConcreteDecorator is-a Base Component.
+Relations: <br>
+Decorator is-a and has-a Base Component. <br>
+ConcreteComponent is-a Base Component. <br>
+ConcreteDecorator is-a Base Component. <br>
 
-Implementations: 
-Decorator package has only the template implemented, look into pizza package for a meaningful and comprehensible implementation.
+Implementations: <br>
+Decorator package has only the template implemented, look into pizza package for a more meaningful and comprehensible implementation.
 
 Brownie: How is this pattern implemented in I/O streams? 
 
