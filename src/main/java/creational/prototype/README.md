@@ -79,4 +79,8 @@ So it's always better to choose this? Probably not.
 
 Checkout _document_ package for implementation of real-world use-case (Google Docs, Canva) of Prototype Pattern.
 
-Brownie: Prototype Registry, Prototype vs. Factory vs. Builder, more on Shallow copy vs. Deep copy and thread-safety.
+Bonus Reading: 
+- Prototype Registry
+- Prototype vs. Factory vs. Builder
+- more on Shallow copy vs. Deep copy
+- Thread-safety.
