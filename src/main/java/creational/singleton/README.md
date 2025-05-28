@@ -32,9 +32,8 @@ There are four popular ways to implement the Singleton Design Pattern.<br>
    - unlike Synchronized mechanism, this approach does not obtain the lock unless the instance is not yet created. 
    - important to note, the instance variable is made _volatile_ to prevent cache incoherence issues.
    - **Drawbacks:** volatile keyword is not compatible with Java 1.4 and below, and just that it's complexer than other implementations.
-   
 
-Brownie: Look into BillPughSingleton, StaticBlockSingleton as well, you can also try a ENUM Singleton instead of class. 
-
-
-
+Bonus Reading:
+- BillPughSingleton
+- StaticBlockSingleton
+- ENUM singleton

@@ -34,8 +34,5 @@ ConcreteDecorator is-a Base Component. <br>
 Implementations: <br>
 Decorator package has only the template implemented, look into pizza package for a more meaningful and comprehensible implementation.
 
-Brownie: How is this pattern implemented in I/O streams? 
-
-
-
-
+Bonus Reading: 
+- How is this pattern implemented in I/O streams?
